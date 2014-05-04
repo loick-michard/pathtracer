@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8330940418FDAE8500BB30EB /* AreaLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8330940218FDAE8500BB30EB /* AreaLight.cpp */; };
+		8348820B18EE451B001A892E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8348820A18EE451B001A892E /* main.cpp */; };
+		8348822C18EE4E06001A892E /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8348821818EE4E06001A892E /* Color.cpp */; };
+		8348822F18EE4E06001A892E /* MeshObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8348822218EE4E06001A892E /* MeshObject.cpp */; };
+		8348823018EE4E06001A892E /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8348822818EE4E06001A892E /* Vector3.cpp */; };
+		8348823318EE567D001A892E /* InstanceObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8348823118EE567D001A892E /* InstanceObject.cpp */; };
+		8348823618EE64B4001A892E /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8348823418EE64B4001A892E /* Camera.cpp */; };
+		8348823918EE6890001A892E /* PointLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8348823718EE6890001A892E /* PointLight.cpp */; };
+		8348823C18EE6ADF001A892E /* DirectLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8348823A18EE6ADF001A892E /* DirectLight.cpp */; };
+		8348823F18EE6D0A001A892E /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8348823D18EE6D0A001A892E /* Renderer.cpp */; };
+		8348824218EE6EC9001A892E /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8348824018EE6EC9001A892E /* Triangle.cpp */; };
+		839EF97C18EF706700A54D1F /* PlaneObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839EF97A18EF706700A54D1F /* PlaneObject.cpp */; };
+		839EF97F18EF746300A54D1F /* SphereObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 839EF97D18EF746300A54D1F /* SphereObject.cpp */; };
+		83FA8C4118FDFC2E00CC480A /* BoxTreeObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83FA8C3F18FDFC2E00CC480A /* BoxTreeObject.cpp */; };
+		83FA8C4418FDFC4F00CC480A /* BoxTreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83FA8C4218FDFC4F00CC480A /* BoxTreeNode.cpp */; };
+		83FE9DD21906D55300EA0157 /* FresnelMetalMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83FE9DD01906D55300EA0157 /* FresnelMetalMaterial.cpp */; };
+		83FE9DD519075C7100EA0157 /* DielectricMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83FE9DD319075C7100EA0157 /* DielectricMaterial.cpp */; };
+		83FE9DD81908922000EA0157 /* PlasticMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83FE9DD61908922000EA0157 /* PlasticMaterial.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8330940218FDAE8500BB30EB /* AreaLight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AreaLight.cpp; sourceTree = "<group>"; };
+		8330940318FDAE8500BB30EB /* AreaLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaLight.h; sourceTree = "<group>"; };
+		8348820718EE451B001A892E /* Raytracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Raytracer; sourceTree = BUILT_PRODUCTS_DIR; };
+		8348820A18EE451B001A892E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8348820D18EE451B001A892E /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		8348820F18EE451B001A892E /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		8348821818EE4E06001A892E /* Color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Color.cpp; path = ../../../../../Downloads/Project1_SampleCode/Color.cpp; sourceTree = "<group>"; };
+		8348821918EE4E06001A892E /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Color.h; path = ../../../../../Downloads/Project1_SampleCode/Color.h; sourceTree = "<group>"; };
+		8348821A18EE4E06001A892E /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Core.h; path = ../../../../../Downloads/Project1_SampleCode/Core.h; sourceTree = "<group>"; };
+		8348821B18EE4E06001A892E /* Intersection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Intersection.h; path = ../../../../../Downloads/Project1_SampleCode/Intersection.h; sourceTree = "<group>"; };
+		8348821C18EE4E06001A892E /* LambertMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LambertMaterial.h; path = ../../../../../Downloads/Project1_SampleCode/LambertMaterial.h; sourceTree = "<group>"; };
+		8348821D18EE4E06001A892E /* Light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Light.h; path = ../../../../../Downloads/Project1_SampleCode/Light.h; sourceTree = "<group>"; };
+		8348821F18EE4E06001A892E /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Material.h; path = ../../../../../Downloads/Project1_SampleCode/Material.h; sourceTree = "<group>"; };
+		8348822218EE4E06001A892E /* MeshObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MeshObject.cpp; path = ../../../../../Downloads/Project1_SampleCode/MeshObject.cpp; sourceTree = "<group>"; };
+		8348822318EE4E06001A892E /* MeshObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeshObject.h; path = ../../../../../Downloads/Project1_SampleCode/MeshObject.h; sourceTree = "<group>"; };
+		8348822418EE4E06001A892E /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Object.h; path = ../../../../../Downloads/Project1_SampleCode/Object.h; sourceTree = "<group>"; };
+		8348822518EE4E06001A892E /* Ray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ray.h; path = ../../../../../Downloads/Project1_SampleCode/Ray.h; sourceTree = "<group>"; };
+		8348822618EE4E06001A892E /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Scene.h; path = ../../../../../Downloads/Project1_SampleCode/Scene.h; sourceTree = "<group>"; };
+		8348822718EE4E06001A892E /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Triangle.h; path = ../../../../../Downloads/Project1_SampleCode/Triangle.h; sourceTree = "<group>"; };
+		8348822818EE4E06001A892E /* Vector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector3.cpp; path = ../../../../../Downloads/Project1_SampleCode/Vector3.cpp; sourceTree = "<group>"; };
+		8348822918EE4E06001A892E /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector3.h; path = ../../../../../Downloads/Project1_SampleCode/Vector3.h; sourceTree = "<group>"; };
+		8348822A18EE4E06001A892E /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vertex.h; path = ../../../../../Downloads/Project1_SampleCode/Vertex.h; sourceTree = "<group>"; };
+		8348823118EE567D001A892E /* InstanceObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InstanceObject.cpp; sourceTree = "<group>"; };
+		8348823218EE567D001A892E /* InstanceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstanceObject.h; sourceTree = "<group>"; };
+		8348823418EE64B4001A892E /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		8348823518EE64B4001A892E /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		8348823718EE6890001A892E /* PointLight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointLight.cpp; sourceTree = "<group>"; };
+		8348823818EE6890001A892E /* PointLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointLight.h; sourceTree = "<group>"; };
+		8348823A18EE6ADF001A892E /* DirectLight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectLight.cpp; sourceTree = "<group>"; };
+		8348823B18EE6ADF001A892E /* DirectLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectLight.h; sourceTree = "<group>"; };
+		8348823D18EE6D0A001A892E /* Renderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Renderer.cpp; sourceTree = "<group>"; };
+		8348823E18EE6D0A001A892E /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		8348824018EE6EC9001A892E /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		8348824318EE9977001A892E /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
+		839EF97A18EF706700A54D1F /* PlaneObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlaneObject.cpp; sourceTree = "<group>"; };
+		839EF97B18EF706700A54D1F /* PlaneObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaneObject.h; sourceTree = "<group>"; };
+		839EF97D18EF746300A54D1F /* SphereObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SphereObject.cpp; sourceTree = "<group>"; };
+		839EF97E18EF746300A54D1F /* SphereObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereObject.h; sourceTree = "<group>"; };
+		83FA8C3F18FDFC2E00CC480A /* BoxTreeObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BoxTreeObject.cpp; sourceTree = "<group>"; };
+		83FA8C4018FDFC2E00CC480A /* BoxTreeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxTreeObject.h; sourceTree = "<group>"; };
+		83FA8C4218FDFC4F00CC480A /* BoxTreeNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BoxTreeNode.cpp; sourceTree = "<group>"; };
+		83FA8C4318FDFC4F00CC480A /* BoxTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxTreeNode.h; sourceTree = "<group>"; };
+		83FE9DD01906D55300EA0157 /* FresnelMetalMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FresnelMetalMaterial.cpp; sourceTree = "<group>"; };
+		83FE9DD11906D55300EA0157 /* FresnelMetalMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FresnelMetalMaterial.h; sourceTree = "<group>"; };
+		83FE9DD319075C7100EA0157 /* DielectricMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DielectricMaterial.cpp; sourceTree = "<group>"; };
+		83FE9DD419075C7100EA0157 /* DielectricMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DielectricMaterial.h; sourceTree = "<group>"; };
+		83FE9DD61908922000EA0157 /* PlasticMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlasticMaterial.cpp; sourceTree = "<group>"; };
+		83FE9DD71908922000EA0157 /* PlasticMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlasticMaterial.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8348820518EE451B001A892E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		834881FF18EE451B001A892E = {
+			isa = PBXGroup;
+			children = (
+				8348820918EE451B001A892E /* Raytracer */,
+				8348820818EE451B001A892E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8348820818EE451B001A892E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8348820718EE451B001A892E /* Raytracer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8348820918EE451B001A892E /* Raytracer */ = {
+			isa = PBXGroup;
+			children = (
+				8348824318EE9977001A892E /* glm */,
+				8348820A18EE451B001A892E /* main.cpp */,
+				83FE9DD61908922000EA0157 /* PlasticMaterial.cpp */,
+				83FE9DD71908922000EA0157 /* PlasticMaterial.h */,
+				83FE9DD319075C7100EA0157 /* DielectricMaterial.cpp */,
+				83FE9DD419075C7100EA0157 /* DielectricMaterial.h */,
+				83FA8C3F18FDFC2E00CC480A /* BoxTreeObject.cpp */,
+				83FA8C4218FDFC4F00CC480A /* BoxTreeNode.cpp */,
+				83FA8C4318FDFC4F00CC480A /* BoxTreeNode.h */,
+				83FA8C4018FDFC2E00CC480A /* BoxTreeObject.h */,
+				839EF97D18EF746300A54D1F /* SphereObject.cpp */,
+				839EF97E18EF746300A54D1F /* SphereObject.h */,
+				839EF97A18EF706700A54D1F /* PlaneObject.cpp */,
+				839EF97B18EF706700A54D1F /* PlaneObject.h */,
+				8348823418EE64B4001A892E /* Camera.cpp */,
+				8348823D18EE6D0A001A892E /* Renderer.cpp */,
+				8348823E18EE6D0A001A892E /* Renderer.h */,
+				8348823518EE64B4001A892E /* Camera.h */,
+				8348823118EE567D001A892E /* InstanceObject.cpp */,
+				8348823218EE567D001A892E /* InstanceObject.h */,
+				8348821818EE4E06001A892E /* Color.cpp */,
+				8348821918EE4E06001A892E /* Color.h */,
+				8348821A18EE4E06001A892E /* Core.h */,
+				8348821B18EE4E06001A892E /* Intersection.h */,
+				8348821C18EE4E06001A892E /* LambertMaterial.h */,
+				83FE9DD01906D55300EA0157 /* FresnelMetalMaterial.cpp */,
+				83FE9DD11906D55300EA0157 /* FresnelMetalMaterial.h */,
+				8348821D18EE4E06001A892E /* Light.h */,
+				8348823718EE6890001A892E /* PointLight.cpp */,
+				8348823A18EE6ADF001A892E /* DirectLight.cpp */,
+				8348823B18EE6ADF001A892E /* DirectLight.h */,
+				8330940218FDAE8500BB30EB /* AreaLight.cpp */,
+				8330940318FDAE8500BB30EB /* AreaLight.h */,
+				8348823818EE6890001A892E /* PointLight.h */,
+				8348821F18EE4E06001A892E /* Material.h */,
+				8348822218EE4E06001A892E /* MeshObject.cpp */,
+				8348822318EE4E06001A892E /* MeshObject.h */,
+				8348822418EE4E06001A892E /* Object.h */,
+				8348822518EE4E06001A892E /* Ray.h */,
+				8348822618EE4E06001A892E /* Scene.h */,
+				8348822718EE4E06001A892E /* Triangle.h */,
+				8348824018EE6EC9001A892E /* Triangle.cpp */,
+				8348822818EE4E06001A892E /* Vector3.cpp */,
+				8348822918EE4E06001A892E /* Vector3.h */,
+				8348822A18EE4E06001A892E /* Vertex.h */,
+				8348820C18EE451B001A892E /* Resources */,
+			);
+			path = Raytracer;
+			sourceTree = "<group>";
+		};
+		8348820C18EE451B001A892E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8348820D18EE451B001A892E /* cute_image.jpg */,
+				8348820F18EE451B001A892E /* sansation.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8348820618EE451B001A892E /* Raytracer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8348821318EE451B001A892E /* Build configuration list for PBXNativeTarget "Raytracer" */;
+			buildPhases = (
+				8348820418EE451B001A892E /* Sources */,
+				8348820518EE451B001A892E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raytracer;
+			productName = Raytracer;
+			productReference = 8348820718EE451B001A892E /* Raytracer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8348820018EE451B001A892E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Loick Michard";
+			};
+			buildConfigurationList = 8348820318EE451B001A892E /* Build configuration list for PBXProject "Raytracer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 834881FF18EE451B001A892E;
+			productRefGroup = 8348820818EE451B001A892E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8348820618EE451B001A892E /* Raytracer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8348820418EE451B001A892E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839EF97C18EF706700A54D1F /* PlaneObject.cpp in Sources */,
+				83FE9DD519075C7100EA0157 /* DielectricMaterial.cpp in Sources */,
+				8348822F18EE4E06001A892E /* MeshObject.cpp in Sources */,
+				83FA8C4118FDFC2E00CC480A /* BoxTreeObject.cpp in Sources */,
+				8348823918EE6890001A892E /* PointLight.cpp in Sources */,
+				8348823C18EE6ADF001A892E /* DirectLight.cpp in Sources */,
+				8348823318EE567D001A892E /* InstanceObject.cpp in Sources */,
+				8330940418FDAE8500BB30EB /* AreaLight.cpp in Sources */,
+				8348823618EE64B4001A892E /* Camera.cpp in Sources */,
+				8348824218EE6EC9001A892E /* Triangle.cpp in Sources */,
+				83FA8C4418FDFC4F00CC480A /* BoxTreeNode.cpp in Sources */,
+				83FE9DD21906D55300EA0157 /* FresnelMetalMaterial.cpp in Sources */,
+				839EF97F18EF746300A54D1F /* SphereObject.cpp in Sources */,
+				8348822C18EE4E06001A892E /* Color.cpp in Sources */,
+				8348823F18EE6D0A001A892E /* Renderer.cpp in Sources */,
+				83FE9DD81908922000EA0157 /* PlasticMaterial.cpp in Sources */,
+				8348823018EE4E06001A892E /* Vector3.cpp in Sources */,
+				8348820B18EE451B001A892E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8348821118EE451B001A892E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		8348821218EE451B001A892E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		8348821418EE451B001A892E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+					/opt/local/include/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+					/opt/local/lib/,
+				);
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+					"-l",
+					assimp,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8348821518EE451B001A892E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_OPTIMIZATION_LEVEL = s;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+					/opt/local/include/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+					/opt/local/lib/,
+				);
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+					"-l",
+					assimp,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8348820318EE451B001A892E /* Build configuration list for PBXProject "Raytracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8348821118EE451B001A892E /* Debug */,
+				8348821218EE451B001A892E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8348821318EE451B001A892E /* Build configuration list for PBXNativeTarget "Raytracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8348821418EE451B001A892E /* Debug */,
+				8348821518EE451B001A892E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8348820018EE451B001A892E /* Project object */;
+}
